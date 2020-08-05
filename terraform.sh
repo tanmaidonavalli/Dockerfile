@@ -1,3 +1,5 @@
+!#/bin/bash
+
 cd /root/TFCode/TF_Files
 $terraform --version
 
