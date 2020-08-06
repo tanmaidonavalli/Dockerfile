@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Clone Terraform files from GitHub
-git clone https://github.com/SrilakshmiDoma14/TF_Files.git
+git clone https://github.com/tanmaidonavalli/TF_Files.git
 
 #Build Image
 #docker build -t <image_name> /root/
