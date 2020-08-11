@@ -19,7 +19,6 @@ docker exec -it tfcontainer1 bash -c 'cd /root/TFCode/TF_Files &&
         terraform init &&
         config-lint -terraform . > log.txt &&
         chmod 755 config.sh &&
-
         ./config.sh &&
         terraform plan &&
         terraform apply &&
